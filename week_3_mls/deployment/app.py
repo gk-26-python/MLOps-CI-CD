@@ -4,10 +4,10 @@ import pandas as pd
 import joblib
 
 # Load the model committed by the pipeline (sits next to this file)
-model_path = os.path.join(os.path.dirname(__file__), "best_machine_failure_model_v1.joblib")
+model_path = os.path.join(os.path.dirname(__file__), "best_machine_failure_model.joblib")
 model = joblib.load(model_path)
 
-st.title("Machine Failure Prediction App")
+st.title("Machine Failure Prediction App GK TEST")
 st.write("""
 This application predicts the likelihood of a machine failing based on its operational parameters.
 Enter the sensor and configuration data below to get a prediction.
